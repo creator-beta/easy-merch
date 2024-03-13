@@ -35,29 +35,31 @@ h1 {
   width: 30px;
   height: 30px;
   background-size: 100%;
+}
+.field .empty {
   background-image: url(images/tile-.png);
   z-index: 5;
 }
-.field .tileW {
+.field .wall {
   background-image: url(images/tile-W.png);
 }
-.field .tileE {
+.field .enemy {
   background-image: url(images/tile-E.png);
   z-index: 10;
 }
-.field .tileP {
+.field .player {
   background-image: url(images/tile-P.png);
   z-index: 10;
 }
-.field .tileHP {
+.field .hp {
   background-image: url(images/tile-HP.png);
   z-index: 9;
 }
-.field .tileSW {
+.field .sword {
   background-image: url(images/tile-SW.png);
   z-index: 9;
 }
-.field .tile .health {
+.field .enemy .health {
   background-color: #ff0000;
   z-index: 11;
   position: absolute;
@@ -65,7 +67,7 @@ h1 {
   top: 0px;
   height: 3px;
 }
-.field .tileP .health {
+.field .player .health {
   background-color: #00ff00;
   z-index: 11;
   position: absolute;
